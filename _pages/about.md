@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Software Engineer - Machine Learning 
+subtitle: Computer Vision Engineer - Software Engineer
 
 profile:
   align: right
