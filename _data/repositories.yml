@@ -1,0 +1,12 @@
+github_users:
+  - rrgaire
+
+repo_description_lines_max: 3
+
+github_repos:
+  - rrgaire/EnCoDe
+  - rrgaire/Real-World-Image-SR 
+  - rrgaire/ImageSuperResolutionGAN
+  - rrgaire/medical_image_segmentation 
+  - rrgaire/ThesisDocumentGenerator 
+  - rrgaire/Asteroid_game 
