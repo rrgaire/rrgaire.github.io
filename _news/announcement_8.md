@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Awarded ["Most Improved Master's Student"](assets/pdf/soc_certificate.pdf) by the [School of Computing, UNL](https://computing.unl.edu/).
+Awarded [`Most Improved Master's Student`](//rrgaire.com.np/assets/pdf/soc_certificate.pdf) by the [School of Computing, UNL](https://computing.unl.edu/).
