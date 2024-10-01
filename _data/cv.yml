@@ -145,7 +145,7 @@
       year: 2021
       description: A full-stack web app to serve the GAN-based real-image super-resolution model using ReactJS, Flask and Tensorflow Serving with Docker 
 
-    - title: <a href="https://github.com/rrgaire/ThesisDocumentGenerator">Document Automator</a>
+    - title: <a href="https://github.com/rrgaire/ThesisDocumentGenerator">Graduate Program Management</a>
       year: 2021
       description: A Django-based web application to automate the document creation and management of MSC thesis programs in DOECE, IOE, Pulchowk Campus with a centralized PostgreSQL database fro managing records of the program, students, and faculties.
 
