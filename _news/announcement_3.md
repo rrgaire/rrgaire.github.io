@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Secured [`first position`](//rrgaire.com.np/assets/pdf/fetreg.pdf) in [FetReg 2021: Placental Vessel Segmentation and Registration in Fetoscopy](https://www.synapse.org/Synapse:syn25313156/wiki/609152) challenge at [MICCAI 2021](https://miccai2021.org/en/).
+Secured first position in [FetReg 2021: Placental Vessel Segmentation and Registration in Fetoscopy](/assets/pdf/fetreg.pdf) challenge at [MICCAI 2021](https://miccai2021.org/en/).

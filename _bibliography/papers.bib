@@ -1,7 +1,81 @@
   ---
-  ---
+  --- 
+
+  @inproceedings{gaire2025fdal,
+  title={FDAL: Leveraging Feature Distillation for Efficient and Task-Aware Active Learning},
+  author={Gaire, Rebati and Roohi, Arman},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={3131--3138},
+  year={2025},
+  preview={fdal.png},
+  bibtex_show={true},
+  selected={true},
+  pdf={https://openaccess.thecvf.com/content/ICCV2025W/ECLR/papers/Gaire_FDAL_Leveraging_Feature_Distillation_for_Efficient_and_Task-Aware_Active_Learning_ICCVW_2025_paper.pdf},
+  google_scholar_id={ufrVoPGSRksC},
+  code={https://github.com/rrgaire/FDAL},
+  abstract={Active learning (AL) offers a promising strategy for reducing annotation costs by selectively querying informative samples. However, its deployment on edge devices remains fundamentally limited. In such resource-constrained environments, models must be highly compact to meet strict compute, memory, and energy budgets. These lightweight models, though efficient, suffer from limited representational capacity and are ill-equipped to support existing AL methods, which assume access to high-capacity networks capable of modeling uncertainty or learning expressive acquisition functions. To address this, we introduce FDAL, a unified framework that couples task-aware AL with feature-distilled training to enable efficient and accurate learning on resource-limited devices. A task-aware sampler network, trained adversarially alongside a lightweight task model, exploits refined features from feature distillation to prioritize informative unlabeled instances for annotation. This joint optimization strategy ensures tight coupling between task utility and sampling efficacy. Extensive experiments on SVHN, CIFAR-10, and CIFAR-100 demonstrate that FDAL consistently outperforms state-of-the-art AL methods, achieving competitive accuracy with significantly fewer labels under limited compute and annotation budgets. Notably, FDAL achieves 78.5% accuracy on CIFAR-10 with only 30% labeled data, matching the fully supervised baseline of 78.38%. The code is made publicly available at https://github.com/rrgaire/FDAL for reproducibility and future research.}
+}
 
 
+  @inproceedings{gaire2025carn,
+  title={CARN: Complexity-Aware Routing Network for Efficient and Adaptive Inference},
+  author={Gaire, Rebati and Roohi, Arman},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={3318--3326},
+  year={2025},
+  preview={carn.jpg},
+  bibtex_show={true},
+  selected={true},
+  pdf={https://openaccess.thecvf.com/content/CVPR2025W/eLVM/papers/Gaire_CARN_Complexity-Aware_Routing_Network_for_Efficient_and_Adaptive_Inference_CVPRW_2025_paper.pdf},
+  google_scholar_id={WF5omc3nYNoC},
+  code={https://github.com/rrgaire/CARN},
+  abstract={Deep neural networks (DNNs) have achieved remarkable success across various domains, yet their rigid, static computation graphs lead to significant inefficiencies in real-world deployment. Standard architectures allocate equal computational resources to all inputs, disregarding their inherent complexity, which results in unnecessary computation for simple samples and suboptimal processing for complex ones. To address this, we propose the Complexity-Aware Routing Network (CARN), a novel framework that dynamically adjusts computational pathways based on input complexity. CARN integrates a self-supervised complexity estimation module that quantifies input difficulty using confidence, entropy, and computational cost, guiding a neural network-based routing mechanism to optimally assign task modules. The model is trained using a routing loss function that balances assignment accuracy and computational efficiency, mitigating expert starvation while preserving specialization. Extensive experiments on CIFAR-10, CIFAR-100, and Tiny-ImageNet demonstrate that CARN achieves up to 4x reduction in computational cost and over 10x reduction in parameter movement while maintaining high accuracy compared to state-of-the-art static models. The code and pre-trained models are made available at https://github.com/rrgaire/CARN for reproducibility and further research.}
+}
+
+
+  @article{tabrizchi2024apris,
+  title={APRIS: Approximate Processing ReRAM In-Sensor Architecture Enabling Artificial-Intelligence-Powered Edge},
+  author={Tabrizchi, Sepehr and Gaire, Rebati and Morsali, Mehrdad and Liehr, Maximilian and Cady, Nathaniel and Angizi, Shaahin and Roohi, Arman},
+  journal={IEEE Transactions on Emerging Topics in Computing},
+  year={2024},
+  publisher={IEEE},
+  preview={APRIS.png},
+  bibtex_show={true},
+  selected={true},
+  pdf={https://ieeexplore.ieee.org/abstract/document/10726690},
+  google_scholar_id={W7OEmFMy1HYC},
+  abstract={Artificial-intelligence-powered edge devices are inspiring interest in always-on, intelligent, and self-powered visual perception systems. Due to the high energy cost of converting raw data and the limited computing and energy resources available, designing energy-efficient and low bandwidth CMOS vision sensors is vital as these emerging systems require continuous sensing and instant processing. This paper proposes a low-power integrated sensing and computing engine, namely APRIS, including a novel software/hardware co-design technique. This method provides a highly parallel analog multiplication and accumulation-in-pixel scheme, which realizes low-precision quantized weight neural networks to mitigate the overhead of analog-to-digital converters and analog buffers. Moreover, in order to reduce the size and power consumption, we propose the implementation of an approximate ADC in the readout circuit. Our system utilizes eight memory banks to increase computation parallelism, which has a dramatic effect on its speed and efficiency. Moreover, the proposed structure supports a zero-skipping scheme to reduce power consumption further. Our circuit-to-application co-simulation results demonstrate a comparable accuracy for our platform to the full-precision baseline on various object classification tasks while reaching an efficiency of 3.48 TOp/s/W.}
+  }
+
+  @inproceedings{gaire2024deco,
+  title={DECO: Dynamic Energy-aware Compression and Optimization for In-Memory Neural Networks},
+  author={Gaire, Rebati and Tabrizchi, Sepehr and Najafi, Deniz and Angizi, Shaahin and Roohi, Arman},
+  booktitle={2024 IEEE 67th International Midwest Symposium on Circuits and Systems (MWSCAS)},
+  pages={1441--1445},
+  year={2024},
+  organization={IEEE},
+  preview={deco.jpg},
+  pdf={https://ieeexplore.ieee.org/abstract/document/10682685},
+  bibtex_show={true},
+  google_scholar_id={Y0pCki6q_DkC},
+  abstract={This paper introduces DECO, a framework that combines model compression and processing-in-memory (PIM) to improve the efficiency of neural networks on IoT devices. By integrating these technologies, DECO significantly reduces energy consumption and operational latency through optimized data movement and computation, demonstrating notable performance gains on CIFAR-10/100 datasets. The DECO learning framework significantly improved the performance of compressed network modules derived from MobileNetV1 and VGG16, with accuracy gains of 1.66 % and 0.41 %, respectively, on the intricate CIFAR-100 dataset. DECO outperforms the GPU implementation by a significant margin, demonstrating up to a two-order-of-magnitude increase in speed based on our experiment.}
+
+}
+
+
+  @inproceedings{gaire2024resource,
+  title={Resource-efficient adaptive-network inference framework with knowledge distillation-based unified learning},
+  author={Gaire, Rebati and Tabrizchi, Sepehr and Roohi, Arman},
+  booktitle={2024 IEEE Computer Society Annual Symposium on VLSI (ISVLSI)},
+  pages={508--513},
+  year={2024},
+  organization={IEEE},
+  pdf={https://ieeexplore.ieee.org/abstract/document/10682685},
+  preview={isvlsi.jpg},
+  google_scholar_id={Tyk-4Ss8FVUC},
+  bibtex_show={true},
+  abstract= {Batteryless edge devices represent a promising av-enue for sustainable computing, but are challenged by intermittent behavior and energy constraints. To address these issues, we propose a novel comprehensive approach integrating adaptive task module selection for intermittent computing paradigms. Our methodology incorporates the design of diverse task modules with varying sizes, precision levels, computational requirements, and energy consumption profiles, utilizing various compression techniques. These modules utilize a shared feature extractor that minimizes data movement and facilitates efficient checkpoint recovery, enhancing overall system robustness. In computing mode, the employed power-aware scheduler selects task modules based on performance requirements and available energy in the system. Subsequently, computation is performed to ensure optimal resource utilization while meeting application demands. We ensure optimal performance of these modules with proposed knowledge distillation-based unified learning. Quantitative evaluations on benchmark datasets-CIFAR-10, CIFAR-100, and Tiny-ImageNet-reveal that, with our proposed learning framework, designed models not only achieve improved performance metrics, including accuracy increases of 1.47%, 2.44%, and 3.70% for each dataset respectively but also enhance energy efficiency. These results validate our comprehensive and synergistic approach, demonstrating significant gains in both performance and resource optimization.}
+  }
 
 
   @inproceedings{gaire2023encode,
