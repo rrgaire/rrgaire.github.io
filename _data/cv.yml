@@ -40,8 +40,8 @@
   type: time_table
   contents:
     - title: Machine Learning Engineer
-      institution: School of Computing, UNL, Lincoln, USA
-      year: Jan 2023 - Dec 2024
+      institution: University of Illinois Chicago, Chicago, IL, USA
+      year: Feb 2024 - Present
       description:
         - Brainstorming, developing, and implementing novel machine learning algorithms optimized for hardware applications, focusing on energy efficiency and computational performance.
         - Managing and analyzing datasets, preparing data for experiments, and ensuring data integrity for research studies.
@@ -49,7 +49,7 @@
         - Assisting in writing research proposals, grant requests, manuscript preparation, and presentations.
 
     - title: Graduate Research Assistant
-      institution: School of Computing, UNL, Lincoln, USA
+      institution: School of Computing, UNL, Lincoln, NE, USA
       year: Jan 2023 - Dec 2024
       description:
         - Led pioneering research on compressing deep learning models with integrated active learning, achieving a notable improvement in accuracy of 3.62% while reducing up to 40% labeled training samples
@@ -132,7 +132,7 @@
       description: Proceedings of the Great Lakes Symposium on VLSI 2023 (GLSVLSI)
 
     - title: <a href="https://link.springer.com/chapter/10.1007/978-981-16-4177-0_75">GAN-Based Two-Step Pipeline for Real-World Image Super-Resolution</a>
-      year: 2023
+      year: 2022
       description: ICT with Intelligent Applications - Proceedings of ICTIS 2021
 
 - title: Skills
@@ -195,6 +195,10 @@
     - year: 2024
       items:
         - Recipient of the "Most Improved Master's Student Award" by the School of Computing, University of Nebraska–Lincoln.
+    - year: 2023
+      items:
+        - Full financial support for MS in Computer Science at the University of Nebraska-Lincoln.
+        
     - year: 2022
       items:
         - Secured first place in the EndoVis Fetreg challenge at MICCAI 2021 among 35 global teams.
