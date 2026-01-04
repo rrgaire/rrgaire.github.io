@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Rebati
 middle_name: R.
 last_name: Gaire
-email: rgaire2@unl.edu
+email: rrgaire@uic.edu
 description:
 footer_text: Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: rebati gaire, computer vision, machine learning, deep learning, software engineering # add your own keywords or leave empty

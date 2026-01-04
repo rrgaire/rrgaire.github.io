@@ -9,4 +9,4 @@ nav_order: 3
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm always open to connecting with like-minded individuals and discussing exciting opportunities. If you have any questions, suggestions, or just want to chat, feel free to reach out to me via [`email`](mailto:rgaire2@unl.edu) or [`LinkedIn`](https://www.linkedin.com/in/rrgaire), and I’ll respond as soon as I can.
+I'm always open to connecting with like-minded individuals and discussing exciting opportunities. If you have any questions, suggestions, or just want to chat, feel free to reach out to me via [`email`](mailto:rrgaire@uic.edu) or [`LinkedIn`](https://www.linkedin.com/in/rrgaire), and I’ll respond as soon as I can.
