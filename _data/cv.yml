@@ -149,7 +149,10 @@
         - PyTorch, TensorFlow, Keras, Scikit-Learn, OpenCV, Pandas, NumPy, SciPy, NLTK
     - title: MLOps & Deployment
       items:
-        - MLflow, Docker, Kubernetes, Apache Airflow, AWS SageMaker, TensorFlow Serving
+        - Docker, Kubernetes, MLflow, Apache Airflow, AWS SageMaker, Model Serving
+    - title: LLM Inference & Serving
+      items:
+        - LLMOps, RAG, Ollama, vLLM, FAISS, Semantic Search, Tree-sitter
     - title: Tools & Platforms
       items:
         - AWS, Linux, Git, Roboflow, LaTeX, WandB, Matplotlib, Seaborn
