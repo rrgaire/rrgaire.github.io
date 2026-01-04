@@ -163,15 +163,15 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/rrgaire/SourceLens">SourceLens: LLM-Powered Codebase Navigator</a>
+    - title: <a href="https://github.com/rrgaire/SourceLens">SourceLens; LLM-Powered Codebase Navigator</a>
       year: 2025
       description: A semantic code exploration tool to accelerate large-scale codebase understanding using CodeBERT embeddings, Tree-sitter parsing, FAISS indexing, and retrieval-augmented prompting.
 
-    - title: <a href="https://github.com/rrgaire/ClauseAI">ClauseAI: LLM-Based Contract Risk Analyzer</a>
+    - title: <a href="https://github.com/rrgaire/ClauseAI">ClauseAI; LLM-Based Contract Risk Analyzer</a>
       year: 2022
       description: A Dockerized full-stack application for clause-level contract risk analysis using local LLM inference (Llama 3.1), FAISS-based semantic retrieval over the CUAD dataset, and RAG via a FastAPI backend and ReactJS frontend.
 
-    - title: <a href="https://github.com/rrgaire/SuperRes.AI">SuperRes.AI: Real-World Image Super-Resolution with GANs</a>
+    - title: <a href="https://github.com/rrgaire/SuperRes.AI">SuperRes.AI; Real-World Image Super-Resolution with GANs</a>
       year: 2021
       description: A production-ready image enhancement pipeline combining Real-ESRGAN and GFPGAN models in a Dockerized FastAPI service with ReactJS frontend for scalable real-world photo restoration.
 
