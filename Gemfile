@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 gem 'observer'
+gem 'ostruct'
 
 group :jekyll_plugins do
     gem 'classifier-reborn'
