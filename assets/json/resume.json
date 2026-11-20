@@ -1,49 +1,84 @@
 {
   "basics": {
-    "name": "Rebati Raman Gaire",
-    "email": "rgaire2@unl.edu",
-    "phone": "(+1) (531) 254 - 8800",
-    "url": "https://rrgaire.com.np",
-    "summary": "A computer vision enthusiast with experience in machine learning and software engineering.",
+    "name": "Rebati Gaire",
+    "email": "rrgaire@uic.edu",
     "location": {
-      "address": "1340 F St, Apt 302",
-      "postalCode": "68508",
       "city": "Lincoln",
-      "countryCode": "US",
-      "region": "Nebraska"
+      "region": "NE",
+      "countryCode": "USA"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "rrgaire",
-        "url": "https://linkedin.com/in/rrgaire"
+        "username": "linkedin.com/in/rrgaire",
+        "url": "https://www.linkedin.com/in/rrgaire/"
       },
       {
         "network": "GitHub",
-        "username": "rrgaire",
-        "url": "https://github.com/rrgaire"
+        "username": "github.com/rrgaire",
+        "url": "https://www.github.com/rrgaire/"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "rebatigaire",
+        "url": "https://scholar.google.com/citations?user=uychwW8AAAAJ&hl=en"
       }
     ]
   },
-  "work": [ 
+  "education": [
+    {
+      "institution": "University of Nebraska-Lincoln, Lincoln, NE, USA",
+      "studyType": "MS in Computer Science",
+      "startDate": "2023-01",
+      "endDate": "2024-12",
+      "courses": [
+        "Awards - Outstanding Master’s Thesis Award 2025, Most Improved Master's Student 2024",
+        "Courses - Design and Analysis of Algorithm, Design and Analysis of Efficient Algorithm (Advanced), Introduction to Deep Learning, Advanced Software Engineering, Computer Architecture, Hardware-Software Acceleration for Machine Learning"
+      ]
+    },
+    {
+      "institution": "Tribhuvan University, IOE, Pulchowk Campus",
+      "studyType": "BE in Computer Engineering",
+      "startDate": "2016-11",
+      "endDate": "2021-04",
+      "courses": [
+        "Award - Merit-based scholarship for undergraduate studies",
+        "Courses - Computer Programming in C, Object Oriented Programming with C++, Theory of Computation, Data Structure and Algorithm, Discrete Mathematics, Calculus-I, Calculus-II, Probability and Statistics, Object Oriented Analysis and Design, Artificial Intelligence, Database Management System, Distributed System, Computer Networks and Security, Digital Signal Analysis and Processing, Simulation and Modeling, Internet and Intranet, Information System"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "name": "University of Illinois Chicago",
+      "location": "Chicago, IL, USA",
+      "position": "Machine Learning Engineer",
+      "startDate": "2024-02",
+      "endDate": "",
+      "highlights": [
+        "Brainstorming, developing, and implementing novel machine learning algorithms optimized for hardware applications, focusing on energy efficiency and computational performance.",
+        "Managing and analyzing datasets, preparing data for experiments, and ensuring data integrity for research studies.",
+        "Maintaining and troubleshooting hardware setups and software environments for machine learning projects.",
+        "Assisting in writing research proposals, grant requests, manuscript preparation, and presentations."
+      ]
+    },
     {
       "name": "School of Computing, UNL",
+      "location": "Lincoln, NE, USA",
       "position": "Graduate Research Assistant",
-      "url": "https://example.com",
-      "startDate": "Jan 2023",
-      "endDate": "Present",
-      "summary": "",
-      "highlights": [ "Implemented cutting-edge compression techniques for model quantization, knowledge distillation, and weight sharing in neural networks, significantly reducing compute parameters and energy consumption while upholding competitive performance standards.",
-        "Conceptualized, implemented, and presented pioneering research on compressing deep learning models with integrated active learning, achieving a notable 3.62% accuracy improvement over baseline using only 60% of training samples."
+      "startDate": "2023-01",
+      "endDate": "2024-12",
+      "highlights": [
+        "Led pioneering research on compressing deep learning models with integrated active learning, achieving a notable improvement in accuracy of 3.62% while reducing up to 40% labeled training samples",
+        "Achieved a 5X reduction in computation and inference latency with the proposed compression technique, ensuring the delivery of robust and scalable solutions for edge devices.",
+        "Published and presented research at peer-reviewed journals and conferences including ICMLA 2023 and TETC 2024."
       ]
     },
     {
       "name": "Redev Technology",
-      "position": "Software Engineer - Computer Vision",
-      "url": "https://example.com",
-      "startDate": "Apr 2021",
-      "endDate": "Dec 2022",
-      "summary": "",
+      "location": "London, UK",
+      "position": "Machine Learning Engineer - Computer Vision",
+      "startDate": "2021-04",
+      "endDate": "2022-12",
       "highlights": [
         "Orchestrated the implementation of contemporary Active Learning pipelines, integrating cutting-edge algorithms such as Coreset, Learning Loss, and Vision transformer, resulting in a remarkable reduction of up to 30% in annotation costs for computer vision tasks.",
         "Spearheaded the development of a comprehensive deep learning system covering all stages from data collection, annotation, processing, training to evaluation, facilitating smart city initiatives by enabling robust detection of persons and vehicles, smoke and fire across diverse environmental conditions, including varying geography, occlusion, lighting, and weather scenarios."
@@ -51,24 +86,22 @@
     },
     {
       "name": "NAAMII",
+      "location": "Kathmandu, Nepal",
       "position": "Computer Vision Research Engineer",
-      "url": "https://example.com",
-      "startDate": "Apr 2021",
-      "endDate": "Dec 2022",
-      "summary": "",
+      "startDate": "2021-04",
+      "endDate": "2022-12",
       "highlights": [
-        "Introduced a novel self-supervised multi-task learning framework for medical image semantic segmentation, demonstrating a notable performance boost of up to 2.5% in popular models like UNet and U2Net.",
+        "Secured first place in the EndoVis FetReg challenge at MICCAI 2021, with a novel self-supervised medical image segmentation framework, improving the performance of UNet and U2Net by 2.5%.",
         "Successfully collaborated with multiple researchers on pioneering research in advanced deep federated learning techniques for cross-domain surgical image segmentation.",
-        "Showcased adeptness in teamwork by closely partnering with supervisors to generate innovative research concepts, providing valuable insights, and contributing to the development of grant proposals to secure funding for research initiatives."
+        "Published research in the Medical Image Analysis Journal and CVPR 2022 Conference."
       ]
     },
     {
       "name": "Genese Cloud Academy",
-      "position": "AWS AI/ML Intern",
-      "url": "https://example.com",
-      "startDate": "Jun 2020",
-      "endDate": "Sep 2020",
-      "summary": "",
+      "location": "Lalitpur, Nepal",
+      "position": "AWS AI/ML Interestship",
+      "startDate": "2020-06",
+      "endDate": "2020-09",
       "highlights": [
         "Gained proficiency in utilizing diverse AWS services including EC2, S3, Lambda, Sagemaker, Lex, Rekognition, and Polly.",
         "Successfully executed machine learning assignments and projects utilizing AWS services."
@@ -76,198 +109,201 @@
     },
     {
       "name": "UBL R&D Center",
+      "location": "Lalitpur, Nepal",
       "position": "Software Developer Intern",
-      "url": "https://example.com",
-      "startDate": "May 2019",
-      "endDate": "Nov 2019",
-      "highlights": ["Engineered and deployed a robust user management platform integrated with the PostgreSQL database for a full-stack web application for an innovative image annotation tool."]
-    }
-    
-  ],
-
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "startDate": "2019-05",
+      "endDate": "2019-11",
+      "highlights": [
+        "Engineered and deployed a robust user management platform integrated with the PostgreSQL database for a full-stack web application for an innovative image annotation tool."
+      ]
     }
   ],
   "publications": [
     {
-      "name": "SenTer: A reconfigurable processing-in-sensor architecture enabling efficient ternary MLP",
-      "publisher": "Proceedings of the Great Lakes Symposium on VLSI 2023",
-      "releaseDate": "2023",
-      "url": "https://dl.acm.org/doi/abs/10.1145/3386263.3386241"
+      "name": "FDAL - Leveraging Feature Distillation for Efficient and Task-Aware Active Learning",
+      "publisher": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "releaseDate": "2025",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025W/ECLR/papers/Gaire_FDAL_Leveraging_Feature_Distillation_for_Efficient_and_Task-Aware_Active_Learning_ICCVW_2025_paper.pdf"
     },
     {
-      "name": "A client-server deep federated learning for cross-domain surgical image segmentation",
-      "publisher": "MICCAI Workshop on Data Engineering in Medical Imaging",
-      "releaseDate": "2023",
-      "url": "https://arxiv.org/pdf/2306.08720"
+      "name": "CARN - Complexity-Aware Routing Network for Efficient and Adaptive Inference",
+      "publisher": "Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)",
+      "releaseDate": "2025",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025W/eLVM/papers/Gaire_CARN_Complexity-Aware_Routing_Network_for_Efficient_and_Adaptive_Inference_CVPRW_2025_paper.pdf"
     },
     {
-      "name": "Placental vessel segmentation and registration in fetoscopy: literature review and MICCAI FetReg2021 challenge findings",
-      "publisher": "Medical Image Analysis",
-      "releaseDate": "2023",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1361841523003262"
+      "name": "APRIS - Approximate Processing ReRAM In-Sensor Architecture Enabling Artificial-Intelligence-Powered Edge",
+      "publisher": "IEEE Transactions on Emerging Topics in Computing (TETC)",
+      "releaseDate": "2024",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10726690"
     },
     {
-      "name": "Why is the winner the best?",
-      "publisher": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2023)",
-      "releaseDate": "2023",
-      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Eisenmann_Why_Is_the_Winner_the_Best_CVPR_2023_paper.html"
+      "name": "DECO - Dynamic Energy-aware Compression and Optimization for In-Memory Neural Networks",
+      "publisher": "2024 IEEE 67th International Midwest Symposium on Circuits and Systems (MWSCAS)",
+      "releaseDate": "2024",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10682685"
     },
     {
-      "name": "Histogram of oriented gradients meet deep learning: A novel multi-task deep network for 2D surgical image semantic segmentation",
-      "publisher": "Medical Image Analysis",
-      "releaseDate": "2023",
-      "url": "https://github.com/rrgaire/medical_image_segmentation"
+      "name": "Resource-Efficient Adaptive-Network Inference Framework with Knowledge Distillation-Based Unified Learning",
+      "publisher": "2024 IEEE Computer Society Annual Symposium on VLSI (ISVLSI)",
+      "releaseDate": "2024",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10682685"
     },
     {
-      "name": "EnCoDe: Enhancing Compressed Deep Learning Models Through Feature Distillation and Informative Sample Selection",
-      "authors": "Rebati Gaire",
+      "name": "EnCoDe - Enhancing Compressed Deep Learning Models Through Feature Distillation and Informative Sample Selection",
       "publisher": "2023 International Conference on Machine Learning and Applications (ICMLA)",
       "releaseDate": "2023",
       "url": "https://ieeexplore.ieee.org/document/10459788"
     },
     {
+      "name": "Histogram of oriented gradients meet deep learning - A novel multi-task deep network for 2D surgical image semantic segmentation",
+      "publisher": "Medical Image Analysis Journal (MedIA)",
+      "releaseDate": "2023",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1361841523000087"
+    },
+    {
+      "name": "Why is the winner the best?",
+      "publisher": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "releaseDate": "2023",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Eisenmann_Why_Is_the_Winner_the_Best_CVPR_2023_paper.html"
+    },
+    {
+      "name": "Placental vessel segmentation and registration in fetoscopy - literature review and MICCAI FetReg2021 challenge findings",
+      "publisher": "Medical Image Analysis Journal (MedIA)",
+      "releaseDate": "2023",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1361841523003262"
+    },
+    {
+      "name": "A client-server deep federated learning for cross-domain surgical image segmentation",
+      "publisher": "MICCAI Workshop on Data Engineering in Medical Imaging (DEMI MICCAI)",
+      "releaseDate": "2023",
+      "url": "https://arxiv.org/pdf/2306.08720"
+    },
+    {
+      "name": "SenTer - A reconfigurable processing-in-sensor architecture enabling efficient ternary MLP",
+      "publisher": "Proceedings of the Great Lakes Symposium on VLSI 2023 (GLSVLSI)",
+      "releaseDate": "2023",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3583781.3590225"
+    },
+    {
       "name": "GAN-Based Two-Step Pipeline for Real-World Image Super-Resolution",
-      "authors": "Rebati Gaire",
-      "publisher": "ICT with Intelligent Applications: Proceedings of ICTIS 2021",
+      "publisher": "ICT with Intelligent Applications - Proceedings of ICTIS 2021",
       "releaseDate": "2022",
       "url": "https://link.springer.com/chapter/10.1007/978-981-16-4177-0_75"
     }
   ],
   "skills": [
-      {
-        "name": "Programming Language",
-        "level": "Expert",
-        "icon": "fa-solid fa-hashtag",
-        "keywords": "Python, JavaScript, C/C++, SQL, Matlab"
-      },
-      {
-        "name": "Web Frameworks",
-        "level": "Expert",
-        "icon": "fa-solid fa-hashtag",
-        "keywords": "Django, Flask, ReactJS, NodeJS"
-      },
-      {
-        "name": "ML Libraries",
-        "level": "Expert",
-        "icon": "fa-solid fa-hashtag",
-        "keywords": "Pytorch, Tensorflow, Keras, Scikit-Learn, OpenCV, Pandas, NumPy, SciPy, NLTK"
-      },
-      {
-        "name": "Other Tools",
-        "level": "Expert",
-        "icon": "fa-solid fa-hashtag",
-        "keywords": "Linux, Git, Docker, Tensorflow Serving, AWS, LateX, Matplotlib, Seaborn"
-      }
-  ],
-  "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Programming Languages",
+      "keywords": ["Python", "JavaScript", "C/C++", "SQL", "Matlab"]
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Web Frameworks",
+      "keywords": ["Django", "Flask", "ReactJS", "NodeJS"]
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "ML & DL Libraries",
+      "keywords": ["PyTorch", "TensorFlow", "Keras", "Scikit-Learn", "OpenCV", "Pandas", "NumPy", "SciPy", "NLTK"]
+    },
+    {
+      "name": "MLOps & Deployment",
+      "keywords": ["Docker", "Kubernetes", "MLflow", "Apache Airflow", "AWS SageMaker", "Model Serving"]
+    },
+    {
+      "name": "LLM Inference & Serving",
+      "keywords": ["LLMOps", "RAG", "Ollama", "vLLM", "FAISS", "Semantic Search", "Tree-sitter"]
+    },
+    {
+      "name": "Tools & Platforms",
+      "keywords": ["AWS", "Linux", "Git", "Roboflow", "LaTeX", "WandB", "Matplotlib", "Seaborn"]
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "SourceLens; LLM-Powered Codebase Navigator",
+      "startDate": "2025",
+      "endDate": "2025",
+      "summary": "A semantic code exploration tool to accelerate large-scale codebase understanding using CodeBERT embeddings, Tree-sitter parsing, FAISS indexing, and retrieval-augmented prompting.",
+      "url": "https://github.com/rrgaire/SourceLens"
+    },
+    {
+      "name": "ClauseAI; LLM-Based Contract Risk Analyzer",
+      "startDate": "2022",
+      "endDate": "2022",
+      "summary": "A Dockerized full-stack application for clause-level contract risk analysis using local LLM inference (Llama 3.1), FAISS-based semantic retrieval over the CUAD dataset, and RAG via a FastAPI backend and ReactJS frontend.",
+      "url": "https://github.com/rrgaire/ClauseAI"
+    },
+    {
+      "name": "SuperRes.AI; Real-World Image Super-Resolution with GANs",
+      "startDate": "2021",
+      "endDate": "2021",
+      "summary": "A production-ready image enhancement pipeline combining Real-ESRGAN and GFPGAN models in a Dockerized FastAPI service with ReactJS frontend for scalable real-world photo restoration.",
+      "url": "https://github.com/rrgaire/SuperRes.AI"
+    },
+    {
+      "name": "EnCoDe",
+      "startDate": "2023",
+      "endDate": "2023",
+      "summary": "EnCoDe merges active learning, model compression, and knowledge distillation to optimize deep learning models for edge devices. This technique addresses issues such as generalization loss, resource intensity, and data redundancy that often affect compressed models.",
+      "url": "https://github.com/rrgaire/EnCoDe"
+    },
+    {
+      "name": "Medical Image Segmentation",
+      "startDate": "2022",
+      "endDate": "2022",
+      "summary": "Winner of the FetReg 2021 challenge at MICCAI 2021 that uses a novel deep multi-task learning method for medical image segmentation leveraging Histogram of Oriented Gradients (HOGs) to generate pseudo-labels.",
+      "url": "https://github.com/rrgaire/medical_image_segmentation"
+    },
+    {
+      "name": "Real-ImageSR",
+      "startDate": "2021",
+      "endDate": "2021",
+      "summary": "A GAN-based two step pipeline for enhancing the resolution of real-word low resolution image by the scale factor of 4. First, the R2B generator transforms real-world LR images to bicubic alike images. Then the nESRGAN+ network super-scales the output of the R2B generator.",
+      "url": "https://github.com/rrgaire/Real-World-Image-SR"
+    },
+    {
+      "name": "Image Super-Resolution",
+      "startDate": "2021",
+      "endDate": "2021",
+      "summary": "A full-stack web app to serve the GAN-based real-image super-resolution model using ReactJS, Flask and Tensorflow Serving with Docker",
+      "url": "https://github.com/rrgaire/ImageSuperResolutionGAN"
+    },
+    {
+      "name": "Graduate Program Management",
+      "startDate": "2021",
+      "endDate": "2021",
+      "summary": "A Django-based web application to automate the document creation and management of MSC thesis programs in DOECE, IOE, Pulchowk Campus with a centralized PostgreSQL database fro managing records of the program, students, and faculties.",
+      "url": "https://github.com/rrgaire/ThesisDocumentGenerator"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Recipient of the \"Outstanding Master’s Thesis Award\" by the College of Engineering, University of Nebraska–Lincoln.",
+      "date": "2025"
+    },
+    {
+      "title": "Presented peer-reviewed research at CVPR 2025, ICCV 2025, MWSCAS 2024, and ICMLA 2023.",
+      "date": "2025"
+    },
+    {
+      "title": "Recipient of the \"Most Improved Master's Student Award\" by the School of Computing, University of Nebraska–Lincoln.",
+      "date": "2024"
+    },
+    {
+      "title": "Full financial support for MS in Computer Science at the University of Nebraska-Lincoln.",
+      "date": "2023"
+    },
+    {
+      "title": "Secured first place in the EndoVis Fetreg challenge at MICCAI 2021 among 35 global teams.",
+      "date": "2022"
+    },
+    {
+      "title": "Selected scholar for the prestigious PAISS 2021 (PRAIRIE / MIAI AI Summer School).",
+      "date": "2022"
+    },
+    {
+      "title": "Ranked 14th/12,000 in Nepal’s IOE nationwide entrance exam; awarded full merit-based undergraduate scholarship.",
+      "date": "2016"
     }
   ]
 }

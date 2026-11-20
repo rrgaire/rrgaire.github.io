@@ -25,4 +25,25 @@
       </td>
     </tr>
   {% endfor %}
+  {% assign loc = data[1].location %}
+  {% if loc %}
+    {% assign loc_parts = '' | split: '' %}
+    {% if loc.city %}{% assign loc_parts = loc_parts | push: loc.city %}{% endif %}
+    {% if loc.region %}{% assign loc_parts = loc_parts | push: loc.region %}{% endif %}
+    {% if loc.countryCode %}{% assign loc_parts = loc_parts | push: loc.countryCode %}{% endif %}
+    <tr>
+      <td class="p-1 pr-2 font-weight-bold"><b>Location</b></td>
+      <td class="p-1 pl-2 font-weight-light text">{{ loc_parts | join: ', ' }}</td>
+    </tr>
+  {% endif %}
+  {% for profile in data[1].profiles %}
+    <tr>
+      <td class="p-1 pr-2 font-weight-bold">
+        <b>{{ profile.network }}</b>
+      </td>
+      <td class="p-1 pl-2 font-weight-light text">
+        <a href="{{ profile.url }}" target="_blank" rel="noopener noreferrer">{{ profile.username }}</a>
+      </td>
+    </tr>
+  {% endfor %}
 </table>
