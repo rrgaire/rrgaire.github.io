@@ -261,7 +261,8 @@
       "name": "CodeAlign: Code LLM Fine-tuning for Intelligent Code Understanding",
       "startDate": "2025",
       "endDate": "2025",
-      "summary": "Fine-tuned DeepSeek-Coder-7B using QLoRA and DPO. Integrated Tree-sitter parsing, FAISS retrieval, and vLLM serving for repository-aware code explanation."
+      "summary": "Fine-tuned DeepSeek-Coder-7B using QLoRA and DPO. Integrated Tree-sitter parsing, FAISS retrieval, and vLLM serving for repository-aware code explanation.",
+      "url": "https://github.com/rrgaire/SourceLens"
     },
     {
       "name": "ClauseAI: LLM-Based Contract Risk Analyzer",
@@ -287,7 +288,8 @@
   "awards": [
     {
       "title": "Outstanding Master’s Thesis Award, College of Engineering, University of Nebraska–Lincoln.",
-      "date": "2025"
+      "date": "2025",
+      "url": "/assets/pdf/coe_thesis.pdf"
     },
     {
       "title": "Travel grant to present peer-reviewed research at ICCV 2025, CVPR 2025, MWSCAS 2024, and ICMLA 2023.",
@@ -295,7 +297,8 @@
     },
     {
       "title": "Most Improved Master’s Student Award, School of Computing, University of Nebraska–Lincoln.",
-      "date": "2024"
+      "date": "2024",
+      "url": "/assets/pdf/soc_certificate.pdf"
     },
     {
       "title": "Full financial support for MS in Computer Science, University of Nebraska–Lincoln.",
@@ -303,11 +306,13 @@
     },
     {
       "title": "First place in the EndoVis FetReg challenge at MICCAI 2021, among 35 global teams.",
-      "date": "2021"
+      "date": "2021",
+      "url": "/assets/pdf/fetreg.pdf"
     },
     {
       "title": "Selected scholar, PAISS 2021 (PRAIRIE / MIAI AI Summer School).",
-      "date": "2021"
+      "date": "2021",
+      "url": "/assets/pdf/paiss_2021.pdf"
     },
     {
       "title": "Ranked 14th of 12,000 in Nepal’s IOE nationwide entrance exam; awarded a full merit-based undergraduate scholarship.",
