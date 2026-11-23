@@ -1,0 +1,7 @@
+# Google Scholar citation counts shown as badges on publications.
+# Key: Google Scholar article id (google_scholar_id in papers.bib); value: citation count.
+# Google blocks automated lookups during builds (HTTP 429), so counts are kept here.
+# Copy the numbers from https://scholar.google.com/citations?user=uychwW8AAAAJ
+# Until a count is listed, builds try a live lookup and hide the badge if it fails.
+# Example:
+# WF5omc3nYNoC: 3   # CARN

@@ -82,6 +82,11 @@ layout: default
             {% assign section_title = site.jsonresume_titles[section_key] %}
             {% unless section_title %}{% assign section_title = section_key | capitalize %}{% endunless %}
             <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
+            {% if section_key == 'publications' %}
+              <p class="mb-1">
+                <a href="{{ '/publications/' | relative_url }}">Full publication list with authors, abstracts, and BibTeX</a>
+              </p>
+            {% endif %}
             <div>
               {% case data[0] %}
                 {% when 'basics' %}

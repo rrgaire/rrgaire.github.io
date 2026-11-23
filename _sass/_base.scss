@@ -1294,3 +1294,29 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+// Smaller code in blog posts so that most lines fit without horizontal scrolling
+.post-content,
+article.post {
+  div.highlighter-rouge,
+  figure.highlight,
+  pre {
+    font-size: 0.74rem;
+    line-height: 1.45;
+  }
+
+  pre code,
+  div.highlight pre,
+  pre.highlight {
+    font-size: 0.74rem;
+  }
+
+  @media (max-width: 576px) {
+    div.highlighter-rouge,
+    figure.highlight,
+    pre,
+    pre code {
+      font-size: 0.68rem;
+    }
+  }
+}

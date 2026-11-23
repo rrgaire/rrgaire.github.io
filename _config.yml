@@ -7,9 +7,9 @@ first_name: Rebati
 middle_name: R.
 last_name: Gaire
 email: rrgaire@uic.edu
-description:
+description: Rebati Gaire is a PhD student in Electrical and Computer Engineering at the University of Illinois Chicago, working on efficient inference for multimodal foundation models and generative AI.
 footer_text: Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: rebati gaire, computer vision, machine learning, deep learning, software engineering # add your own keywords or leave empty
+keywords: rebati gaire, efficient inference, multimodal foundation models, generative ai, speculative decoding, adaptive computation, computer vision, machine learning # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: R # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -329,6 +329,15 @@ scholar:
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
+# Display order of "selected publications" on the homepage (bibtex keys from papers.bib)
+selected_papers_order:
+  - gaire2025carn
+  - gaire2025fdal
+  - gaire2023encode
+  - gaire2024resource
+  - tabrizchi2026arise
+  - tabrizchi2025apris
+
 enable_publication_badges:
   altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
   dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
@@ -633,7 +642,7 @@ jsonresume:
   - skills
   - projects
   - awards
-  # - volunteer
+  - volunteer
   # - certificates
   # - languages
   # - interests
@@ -643,5 +652,6 @@ jsonresume:
 jsonresume_titles:
   basics: General Information
   work: Experiences
-  projects: Open Source Projects
+  projects: Projects
   awards: Achievements
+  volunteer: Reviewing Service

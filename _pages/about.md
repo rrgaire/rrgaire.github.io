@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Machine Learning Engineer
+subtitle: PhD Student · Machine Learning Researcher
 
 profile:
   align: right
@@ -14,8 +14,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I'm Rebati Gaire. I'm passionate about building efficient and novel machine learning systems, and conducting research in recent advances in computer vision. My current focus is on designing efficient models that can run on resource-constrained edge devices to help democratize access to AI. I completed my master’s degree in Computer Science at the [`School of Computing, University of Nebraska-Lincoln`](https://computing.unl.edu/) and my bachelor’s degree in Computer Engineering at Tribhuvan University, Institute of Engineering (IOE), Pulchowk Campus.
+Hi, I’m Rebati Gaire. I’m passionate about developing AI systems that learn, reason, and generate across modalities, while making better use of data and computation. My current research includes multimodal foundation models and generative AI, with a focus on inference optimization, speculative decoding, adaptive computation, and modality selection. My earlier work spans model compression, learning with limited labels, federated learning, medical image analysis, and hardware–software co-design.
 
-My experience spans both research and industry. I have worked on generative models, diffusion models, language vision modeling, self-supervised learning, active learning, federated learning, biomedical vision, and software hardware co-design techniques. I have also contributed to fast-paced startup environments where I built practical, production-ready systems and delivered solutions that addressed real-world needs. This combination of research depth and hands-on engineering has shaped how I approach designing reliable and efficient AI systems.
-
-Looking ahead, I’m eager to continue exploring and advancing innovative solutions in computer vision, AI, and software engineering. I’m enthusiastic about connecting with professionals who share these interests and discussing potential collaborations. If you have any intriguing projects or opportunities for collaboration, let’s [`connect`](/contact/). I’d love to hear from you!
+My experience spans academia and industry, combining research with hands-on development in startup environments. Looking ahead, I’m eager to explore new directions in multimodal learning, generative modeling, and intelligent systems. I’m enthusiastic about connecting with professionals who share these interests and discussing potential collaborations. If you have any intriguing projects or opportunities for collaboration, let’s [`connect`](/contact/). I’d love to hear from you!

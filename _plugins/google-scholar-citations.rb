@@ -1,6 +1,7 @@
 require "active_support/all"
 require 'nokogiri'
 require 'open-uri'
+require 'yaml'
 
 module Helpers
   extend ActiveSupport::NumberHelper
@@ -9,6 +10,16 @@ end
 module Jekyll
   class GoogleScholarCitationsTag < Liquid::Tag
     Citations = { }
+
+    # Citation counts saved by hand (or from a previous successful run) in
+    # _data/scholar_citations.yml, keyed by Google Scholar article id. Google
+    # rate-limits scraping (HTTP 429), so a saved count is used when present.
+    def self.saved_counts
+      @saved_counts ||= begin
+        path = File.join(Dir.pwd, '_data', 'scholar_citations.yml')
+        File.exist?(path) ? (YAML.load_file(path) || {}) : {}
+      end
+    end
 
     def initialize(tag_name, params, tokens)
       super
@@ -21,6 +32,9 @@ module Jekyll
       article_id = context[@article_id.strip]
       scholar_id = context[@scholar_id.strip]
       article_url = "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=#{scholar_id}&citation_for_view=#{scholar_id}:#{article_id}"
+
+      saved = GoogleScholarCitationsTag.saved_counts[article_id]
+      return saved.to_s unless saved.nil?
 
       begin
           # If the citation count has already been fetched, return it

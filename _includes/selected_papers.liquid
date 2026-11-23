@@ -1,3 +1,10 @@
 <div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
+  {% if site.selected_papers_order %}
+    {% comment %} Render selected papers in the explicit order given in _config.yml {% endcomment %}
+    {% for paper_key in site.selected_papers_order %}
+      {% bibliography --group_by none --query @*[key={{ paper_key }}] %}
+    {% endfor %}
+  {% else %}
+    {% bibliography --group_by none --query @*[selected=true]* %}
+  {% endif %}
 </div>

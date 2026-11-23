@@ -157,6 +157,8 @@
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
+    {% assign entrymonth = '' %}
+    {% assign entryyear = '' %}
     {% if entry.month %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
@@ -301,14 +303,16 @@
             ></span>
           {% endif %}
           {% if site.enable_publication_badges.google_scholar and entry_has_google_scholar_badge %}
+            {% capture scholar_count %}{% google_scholar_citations site.scholar_userid entry.google_scholar_id %}{% endcapture %}
+            {% if scholar_count == 'N/A' %}{% assign scholar_count = 'view' %}{% assign scholar_alt = 'View on Google Scholar' %}{% else %}{% assign scholar_alt = scholar_count | append: ' Google Scholar citations' %}{% endif %}
             <a
               href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.scholar_userid }}&citation_for_view={{ site.scholar_userid }}:{{ entry.google_scholar_id }}"
               aria-label="Google Scholar link"
               role="button"
             >
               <img
-                src="https://img.shields.io/badge/scholar-{% google_scholar_citations site.scholar_userid entry.google_scholar_id %}-4285F4?logo=googlescholar&labelColor=beige"
-                alt="{% google_scholar_citations site.scholar_userid entry.google_scholar_id %} Google Scholar citations"
+                src="https://img.shields.io/badge/scholar-{{ scholar_count }}-4285F4?logo=googlescholar&labelColor=beige"
+                alt="{{ scholar_alt }}"
               >
             </a>
           {% endif %}
